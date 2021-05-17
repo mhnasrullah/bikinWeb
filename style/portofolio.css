@@ -1,0 +1,54 @@
+body{
+    font-family: 'roboto';
+    font-weight: 400 !important;
+    background-color: #F2ECE4;
+}
+a{
+    color: black !important;
+    text-decoration: none;
+}
+.active{
+    font-weight: bolder;
+}
+p{
+    font-size: 14px;
+}
+h3{
+    color: #59463B;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 36px;
+}
+
+/* nav */
+.navigation{
+    background-color: #D9D4C5;
+}
+nav a.btn{
+    background-color: #A69D8D;
+}
+.navbar-brand{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 36px;
+}
+
+/* judul */
+.sub-judul{
+    font-size: 18px;
+}
+
+/* kategori */
+.kategori h5{
+    font-size: 24px;
+}
+
+/* daftar */
+.daftar img{
+    border-radius: 20px !important;
+}
+.daftar a{
+    font-size: 18px;
+}
+/* footer */
+footer{
+    background-color: #D9D4C5;
+}
