@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    font-family: 'roboto';
+    font-weight: 400 !important;
+    background-color: #F2ECE4;
+}
+a{
+    color: black !important;
+}
+p{
+    font-size: 14px;
+}
+.navigation{
+    background-color: #D9D4C5;
+}
+nav a.btn{
+    background-color: #A69D8D;
+}
+nav a.navbar-brand{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 36px;
+}
+
+/* heading */
+.heading{
+    padding: 40px 0 80px;
+    background-color: #D9D4C5;
+}
+.heading h1,h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 36px;
+}
+h3{
+    color: #59463B;
+}
+.heading h6{
+    font-weight: 400;
+}
+.heading .btn{
+    background-color: #A69D8D;
+}
+.card{
+    border-radius: 16px;
+    border: solid 2px black;
+    background-color: transparent;
+}
+.card h3{
+    font-family: 'Bebas Neue', cursive;
+    
+}
