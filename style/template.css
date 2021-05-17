@@ -18,13 +18,13 @@ h3{
     font-family: 'Bebas Neue', cursive;
     font-size: 36px;
 }
+.btn{
+    background-color: #A69D8D;
+}
 
 /* nav */
 .navigation{
     background-color: #D9D4C5;
-}
-nav a.btn{
-    background-color: #A69D8D;
 }
 .navbar-brand{
     font-family: 'Bebas Neue', cursive;
@@ -41,14 +41,24 @@ nav a.btn{
     font-size: 24px;
 }
 
-/* daftar */
-.daftar img{
-    border-radius: 20px !important;
+/* cari */
+.cari input{
+    width: 92%;
 }
-.daftar a{
-    font-size: 18px;
+.cari .btn{
+    background-color: transparent;
+}
+.cari img{
+    width: 24px;
+}
+.cari input:focus-visible{
+    outline: none;
 }
 
+/* daftar */
+.daftar img{
+    border-radius: 20px;
+}
 /* footer */
 footer{
     background-color: #D9D4C5;
