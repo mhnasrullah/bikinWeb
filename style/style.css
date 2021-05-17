@@ -17,7 +17,7 @@ p{
 nav a.btn{
     background-color: #A69D8D;
 }
-nav a.navbar-brand{
+.navbar-brand{
     font-family: 'Bebas Neue', cursive;
     font-size: 36px;
 }
@@ -40,12 +40,47 @@ h3{
 .heading .btn{
     background-color: #A69D8D;
 }
+
+/* harga */
 .card{
-    border-radius: 16px;
+    border-radius: 20px;
     border: solid 2px black;
     background-color: transparent;
+    height: 480px;
+}
+.card h2{
+    font-size: 28px;
 }
 .card h3{
-    font-family: 'Bebas Neue', cursive;
-    
+    font-family: 'Bebas Neue', cursive; 
+    color: black; 
+}
+.card div.position-absolute{
+    bottom: 20px;
+    left: 0;
+}
+.card a{
+    background-color: #A69D8D;
+}
+
+/* porto */
+.porto img{
+    border-radius: 20px;
+}
+
+.porto .btn{
+    background-color: #A69D8D;
+}
+
+/* testi */
+.carousel-inner{
+    padding: 0 130px;
+}
+.testi img{
+    border-radius: 20px;
+}
+
+/* footer */
+footer{
+    background-color: #D9D4C5;
 }
