@@ -1,0 +1,53 @@
+body{
+    font-family: 'roboto';
+    font-weight: 400 !important;
+    background-color: #F2ECE4;
+}
+a{
+    color: black !important;
+}
+p{
+    font-size: 14px;
+}
+/* nav */
+.navigation{
+    background-color: #D9D4C5;
+}
+nav a.btn{
+    background-color: #A69D8D;
+}
+.navbar-brand{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 36px;
+}
+h3{
+    font-size: 24px;
+}
+/* navigasi */
+.navigasi img{
+    width: 28px;
+}
+.navigasi a{
+    color: #59463B;
+    font-size: 24px;
+    line-height: auto;
+}
+
+/* form */
+.form-control,.form-select{
+    border: 2px solid #59463B;
+}
+
+/* detail */
+.detail span.d-flex{
+    width: 200px;
+}
+
+/* pembayaran */
+.pembayaran button{
+    background-color: #A69D8D;
+}
+/* footer */
+footer{
+    background-color: #D9D4C5;
+}
