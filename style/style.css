@@ -10,6 +10,9 @@ a{
 p{
     font-size: 14px;
 }
+.d-none{
+    transition: ease-in 1s !important;
+}
 
 /* nav */
 .navigation{
@@ -24,6 +27,8 @@ nav a.btn{
 }
 h3{
     color: #59463B;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 36px;
 }
 
 /* heading */
@@ -31,18 +36,29 @@ h3{
     padding: 40px 0 80px;
     background-color: #D9D4C5;
 }
-.heading h1,h3{
+.heading h1,.heading h6,.heading a{
+    opacity: 0;
+}
+.heading h1{
     font-family: 'Bebas Neue', cursive;
     font-size: 36px;
+    transition: .8s;
 }
 .heading h6{
     font-weight: 400;
+    transition: 1.2s;
 }
 .heading .btn{
     background-color: #A69D8D;
 }
+.heading a{
+    transition: 1.5s;
+}
 
 /* harga */
+.harga{
+    transition: 0.5s;
+}
 .card{
     border-radius: 20px;
     border: solid 2px black;
@@ -65,6 +81,9 @@ h3{
 }
 
 /* porto */
+.porto{
+    transition: 0.5s;
+}
 .porto img{
     border-radius: 20px;
 }
@@ -72,8 +91,15 @@ h3{
 .porto .btn{
     background-color: #A69D8D;
 }
+/* alasan */
+.alasan {
+    transition: 0.5s;
+}
 
 /* testi */
+.testi{
+    transition: 0.5s;
+}
 .carousel-inner{
     padding: 0 130px;
 }

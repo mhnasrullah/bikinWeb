@@ -7,7 +7,7 @@ a{
     color: black !important;
 }
 p{
-    font-size: 14px;
+    font-size: 18px;
 }
 /* nav */
 .navigation{
@@ -16,12 +16,12 @@ p{
 nav a.btn{
     background-color: #A69D8D;
 }
-.navbar-brand{
+.navbar-brand,h3{
     font-family: 'Bebas Neue', cursive;
-    font-size: 36px;
+    font-size: 48px;
 }
 h3{
-    font-size: 24px;
+    color: #59463B;
 }
 /* navigasi */
 .navigasi img{
@@ -32,19 +32,8 @@ h3{
     font-size: 24px;
     line-height: auto;
 }
-
-/* form */
-.form-control,.form-select{
-    border: 2px solid #59463B;
-}
-
-/* detail */
-.detail span.d-flex{
-    width: 200px;
-}
-
 /* pembayaran */
-.pembayaran button{
+a.btn{
     background-color: #A69D8D;
 }
 /* footer */

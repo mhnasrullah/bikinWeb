@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style/checkout.css">
+
+    <title>Checkout</title>
+  </head>
+  <body id="body">
+
+    <!-- nav -->
+    <section class="navigation sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                  <div class="container-fluid">
+                      <a class="navbar-brand" href="index.html">BIKINWEB.ID</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+                      <div class="navbar-nav">
+                        <a class="nav-link me-5" href="template.html">Template</a>
+                        <a class="nav-link me-5" href="portofolio.html">Portofolio</a>
+                        <a class="nav-link btn rounded-pill px-4 d-flex align-content-center" href="order.html">Bikin</a>
+                      </div>
+                    </div>
+                  </div>
+                </nav>
+          </div>
+        </section>
+    <!-- akhir nav -->
+
+    <div class="container">
+    
+    <!-- navigasi -->
+        <section class="navigasi py-5">
+            <div class="row">
+                <div class="col">
+                    <a href="order.html" class="text-decoration-none fw-bolder d-flex align-items-center">
+                        <img src="img/chevron-left.svg" alt="">
+                        CHECKOUT
+                    </a>
+                </div>
+            </div>
+        </section>
+    <!-- akhir navigasi -->
+
+    <!-- informasi -->
+        <section class="informasi mb-5">
+            <div class="row">
+                <div class="col text-center">
+                    <h5>Mandiri Virtual Account</h5>
+                    <h3>123456789</h3>
+                </div>
+            </div>
+        </section>
+    <!-- akhir informasi -->
+        
+        <div class="row pb-5">
+
+            <!-- tutorial -->
+            <div class="col tutorial d-flex justify-content-center">
+                <div class="ps-5">
+                    <h4 class="fw-bold mb-4">Tata cara pembayaran</h4>
+                    <p>1. Pilih menu “Bayar”</p>
+                    <p>2. Pilih menu “Multi Payment”</p>
+                    <p>3. Masukan kode perusahaan “8008”</p>
+                    <p>4. Masukan kode pembayaran “123456789”</p>
+                    <p>5. Tekan bayar</p>
+                    <p>6. Pembayaran telah selesai</p>
+                </div>
+            </div>
+            <!-- akhir tutorial -->
+
+            <!-- tenggat -->
+            <div class="col tenggat">
+                <div class="ps-5 text-center">
+                    <h4 class="fw-bold mb-3">Batas waktu pembayaran</h4>
+                    <h5 class="mb-5" id="tenggatTanggal">3 Mei 2021</h5>
+                    <h4 class="fw-bold mb-3">Sisa waktu</h4>
+                    <h1 class="mb-5" id="tenggatWaktu">23:59:59</h1>
+                    <a class="btn px-5 py-2 rounded-pill" href="#">Konfirmasi</a>
+                </div>
+            </div>
+            <!-- akhir tenggat -->
+
+        </div>
+    
+    </div>
+
+    <!-- footer -->
+    <footer class="py-3">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col">
+                <a href="#" class="navbar-brand">Bikinweb</a>
+            </div>
+            <div class="col d-flex justify-content-end">
+                <a href="#"><img src="img/fb.svg" alt=""></a>
+                <a href="#" class="px-3"><img src="img/tw.svg" alt=""></a>
+                <a href="#"><img src="img/ig.svg" alt=""></a>
+            </div>
+        </div>
+    </div>
+    </footer>
+    <!-- akhir footer -->
+    
+
+      <!-- Optional JavaScript; choose one of the two! -->
+      <script>
+            let tenggatTanggal = document.getElementById("tenggatTanggal");
+            let tenggatWaktu = document.getElementById("tenggatWaktu");
+
+            let hari = new Date().getDate();
+            let bulan = new Date().getMonth();
+            let tahun = new Date().getFullYear();
+
+            switch (bulan) {
+                case 0:
+                    tenggatTanggal.innerHTML = (hari+1) +" Januari "+ tahun;
+                    break;
+                case 1:
+                    tenggatTanggal.innerHTML = (hari+1) +" Februari "+ tahun;
+                    break;
+                case 2:
+                    tenggatTanggal.innerHTML = (hari+1) +" Maret "+ tahun;
+                    break;
+                case 3:
+                    tenggatTanggal.innerHTML = (hari+1) +" April "+ tahun;
+                    break;
+                case 4:
+                    tenggatTanggal.innerHTML = (hari+1) +" Mei "+ tahun;
+                    break;
+                case 5:
+                    tenggatTanggal.innerHTML = (hari+1) +" Juni "+ tahun;
+                    break;
+                case 6:
+                    tenggatTanggal.innerHTML = (hari+1) +" Juli "+ tahun;
+                    break;
+                case 7:
+                    tenggatTanggal.innerHTML = (hari+1) +" Agustus "+ tahun;
+                    break;
+                case 8:
+                    tenggatTanggal.innerHTML = (hari+1) +" September "+ tahun;
+                    break;
+                case 9:
+                    tenggatTanggal.innerHTML = (hari+1) +" Oktober "+ tahun;
+                    break;
+                case 10:
+                    tenggatTanggal.innerHTML = (hari+1) +" November "+ tahun;
+                    break;
+                case 11:
+                    tenggatTanggal.innerHTML = (hari+1) +" Desember "+ tahun;
+                    break;
+            }
+
+            console.log()
+
+
+            let deadline = (new Date().getTime())+(1000*60*60*24);
+
+            setInterval(function() {
+
+            // Get today's date and time
+            let now = new Date().getTime();
+
+            let time = deadline - now;
+
+            let days = Math.floor(time / (1000 * 60 * 60 * 24));
+            let hours = Math.floor((time % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            let minutes = Math.floor((time % (1000 * 60 * 60)) / (1000 * 60));
+            let seconds = Math.floor((time % (1000 * 60)) / 1000);
+
+            tenggatWaktu.innerHTML = hours+" : "+minutes+" : "+seconds;
+            
+            }, 1000);
+
+      </script>
+      
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
